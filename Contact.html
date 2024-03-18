@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<style>
+		/* Add your CSS styles here */
+		body {
+		  font-family: Arial, sans-serif;
+		  background-color: #165cb1;
+		  padding: 20px;
+		  font-size: 20px;
+		}
+		.exhibition {
+		  background-color: #fff;
+		  border-radius: 5px;
+		  padding: 20px;
+		  margin-bottom: 20px;
+		}
+		h1 {
+			text-align: center;
+		}
+		h2 {
+		  color: #333;
+		}
+		h3{
+		  text-align: center;
+		}
+		p {
+		  margin: 10px 0;
+		}
+	  </style>
+<meta charset="utf-8">
+<title>MONATE GALLERY</title>
+<link rel="stylesheet" href="style.css">
+<script>
+    // thank the user if they used the form
+    let message = "Your message was sent. Thank you!"
+    document.addEventListener("DOMContentLoaded", ()=>{
+      if (document.location.search !== "") {
+        document.getElementById("form-response").innerText = message
+      }
+    })
+    </script>
+</head>
+<body>
+	<h1>MONATE GALLERY</h1>
+		<!-- dropdown menu -->
+		<div id="dropdown">
+			<button id="dropdown-btn">Menu</button>
+			<div id="dropdown-content">
+				<a href="home.html">Home</a>
+				<a href="aboutus.html">About Us</a>
+				<a href="exhibition.html">Exhibition</a>
+				<a href="Art Sale html.html">Art Sale</a>
+				<a href="interior design.html">Interior Design</a>
+				 <a href="catalogue writing.html">Catalogue Writing</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+		
+	</div>
+	<h3>Contact Form</h3>
+
+<div class="container">
+  <form>
+    <label for="fname">Name</label>
+	<br>
+    <input type="text" id="fname" name="Name" placeholder="Name">
+	<br>
+	<label for="fname">Phone</label>
+	<br>
+    <input type="text" id="Phone" phone="Phone" placeholder="Phone">
+  	<br>
+	<label for="Email">Email</label>
+	<br>
+    <input type="text" id="Email" email="Email" placeholder="Email">
+	  <br>
+ <label for="Message">Message</label>
+	  <br>
+    <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px"></textarea>
+	<br>
+    <input type="submit" value="Submit">
+	  </form>
+<p id="form-response"></p>
+</div>
+	<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.07456809282302858%2C51.39740168788705%2C-0.07115632295608522%2C51.39892619414191&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/51.39816/-0.07286">View Larger Map</a></small>
+		
+</body>
+</html>

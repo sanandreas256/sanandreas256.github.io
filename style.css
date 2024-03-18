@@ -1,0 +1,300 @@
+/* Add your CSS styles here */
+:root{
+	--colour-grey:#8A97A7;
+	--clr-white:#fff;
+}
+body {
+	font-family: Calbri Body, sans-serif;
+	background-color: var(--colour-grey) ;
+	padding: 0px;
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+}
+h1{
+	margin: 0;
+	padding: 20px;
+	text-align:center
+}
+h2 {
+    font-weight: bold; /* Use 'bold' for font weight */
+    color: #000; /* Set color to black */
+	text-align: left;
+}
+#dropdown{
+	display: flex;
+	justify-content: left;
+	gap: 30px;
+}
+#dropdown-btn{
+	background-color: var(--clr-white);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#dropdown-content{
+	/* background-color: #0073ff; */
+	width: 100%;
+	display: flex;
+	/* aligment of items horizontaly */
+	justify-content: center;
+	
+	/* aligment of items verticaly */
+	align-items: center;
+	gap: 1em;
+}
+#dropdown-links{
+	display: flex;
+	gap: 30px;
+	text-decoration: none;
+}
+
+#dropdown-content a{
+	text-decoration: none;
+}
+
+
+.exhibition {
+	background-color: var(--colour-grey);
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+h1 {
+	text-align: center;
+	color: var(--colour-grey);
+	background-color: #0073ff;
+}
+h2 {
+	color: #333;
+	font-weight: bold;
+	text-align: left;
+}
+p {
+	margin: 10px 0;
+}
+
+  .banner {
+	width: 100%;
+	height: 400px; /* Adjust the height as needed */
+	background-image: url('https://scontent-lhr8-1.xx.fbcdn.net/v/t1.6435-9/61840795_1335565793257103_3667624731860795392_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=APlVxU7MGTMAX8SqRRD&_nc_ht=scontent-lhr8-1.xx&oh=00_AfAkjuhpYqCoWvzDHX6Uz_2kiCKLJ7CppQvWM37WrcNB8w&oe=66115CD0'); /* Replace 'path/to/banner-image.jpg' with the actual path to your banner image */
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #8A97A7ff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  .banner h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+  }
+  .banner p {
+	font-size: 18px;
+  }
+  /* CSS styles for the About Us page */
+
+/* body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #8A97A7;
+	;
+	font-size: 30px;
+  } */
+  #dropdown-links{
+	display: flex;
+	gap: 30px;
+	text-decoration: none;
+  }
+  .container {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+  }
+  
+  h1 {
+	color: #333;
+	text-align: center;
+  }
+  
+  h2 {
+	color: #555;
+  }
+  
+  .content {
+	margin-top: 20px;
+  }
+  
+  p {
+	line-height: 1.6;
+  }
+  /* Art Sale */
+  /* body {
+	font-family: Calbri, sans-serif;
+	font-size: 30px
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+  } */
+  .artwork-item img {
+	width: 80%;
+	height:70%;
+	object-fit: contain;
+	margin: 20px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+  }
+  h1 {
+	  text-align: center
+	  font-weight: Bold
+  }
+  h2 {
+	color: #333;
+	text-align: center;
+	/* text-align: center */
+  }
+  .artwork-item {
+	margin-bottom: 20px;
+  }
+  .artwork-item img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+  }
+  .artwork-description {
+	margin-top: 10px;
+  }
+  .purchase-button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+  }
+  .purchase-button:hover {
+	background-color: #45a049;
+  }
+  .add-to-cart-button {
+    background-color: #964B00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  /* CSS styles for the Interior Design page */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #8A97A7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.testimonials {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label, input, textarea, button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.white {
+	color: white;
+}
+
+/* CSS styles for the Catalogue Writing page */
+
+body {
+  font-family: Calbri, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #8A97A7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+}
+
+a:hover {
+  text-decoration: underline;
+}
